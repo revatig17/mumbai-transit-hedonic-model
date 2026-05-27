@@ -1,4 +1,3 @@
-# mumbai-transit-hedonic-model
 # Capitalizing Mass Transit: A Hedonic Approach to Land Value Capture in the Mumbai Metropolitan Region
 
 ## Project Overview & Policy Context
