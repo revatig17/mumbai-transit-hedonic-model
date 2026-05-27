@@ -2,7 +2,7 @@
 # Capitalizing Mass Transit: A Hedonic Approach to Land Value Capture in the Mumbai Metropolitan Region
 
 ## Project Overview & Policy Context
-Public investment in high-capacity urban transit systems—such as the Mumbai Metro Line 3 (Aqua Line)—creates substantial positive externalities. While governments bear the massive upfront capital expenditures (CapEx), private landholders reap significant windfall wealth through property appreciation. 
+Public investment in high-capacity urban transport systems—such as the Mumbai Metro Line 3 (Aqua Line)—creates substantial positive externalities. While governments bear the massive upfront capital expenditures (CapEx), private landholders reap significant windfall wealth through property appreciation. 
 
 This research project applies **Rosen’s (1974) Hedonic Pricing Theory** and **Alonso's Bid-Rent Framework** to evaluate the spatial capitalization effects of mass transit nodes across the Mumbai Metropolitan Region (MMR). By isolating the pure marginal willingness-to-pay for transit proximity, this study generates the empirical baselines required to implement municipal **Value Capture Financing (VCF)** and **Transit-Oriented Development (TOD)** frameworks.
 
@@ -51,7 +51,7 @@ F-statistic:  2408 on 5 and 2650 DF,  p-value: < 2.2e-16
 
 
 
-## Understanding the Results: 
+**## Understanding the Results:**
 
 This study looks at how housing prices in Mumbai change based on size, layout, condition, and—most importantly—how close the property is to a mass transit hub (like the Metro). 
 
@@ -64,15 +64,15 @@ Our model explains **81.92%** of the variation in housing prices using just five
 
 ---
 
-## Policy Implications: 
+**## Policy Implications:** 
 
 The proof that a Metro station creates a **3.31% property value premium per kilometer** shifts the governance conversation from how the city *spends* money on transport to how it can *earn* money back to build more infrastructure.
 
 
-### 1. Inclusionary Zoning & Structural Density Bonuses
+**### 1. Inclusionary Zoning & Structural Density Bonuses**
 Given that the MCGM already utilizes a 1% Metro Cess on stamp duty, policy must pivot toward structural land-use reforms. Our model identifies a massive 33.89% price premium for layout density (extra bedrooms). The city planning authority should grant private developers an "FSI Density Bonus" within a 1.5 km transit buffer on the strict condition that 20% of the augmented built-up area is designated for compact, affordable housing. This utilizes market incentives to generate diverse housing stock without draining public budgets.
 
-### 2. Implementing Parking Maximums & "Unbundled" Housing Costs
+**### 2. Implementing Parking Maximums & "Unbundled" Housing Costs**
 The econometric results revealed that the consolidated `Amenity_Score` was statistically insignificant ($p = 0.321$) once transport distance and apartment layout were locked in. This strongly suggests that consumer demand and baseline land values along transit corridors are driven entirely by transit connectivity and core spatial utility—not by traditional car-centric structural luxury add-ons. Despite this market reality, current building codes (DCR , NBCs) heavily mandate mandatory car parking minimums, forcing developers to tie expensive multi-level parking slots directly to housing purchases. The city planning authority should pivot to:
 * **Enforcing Parking Maximums:** Cap the number of parking slots allowed for new residential projects built within a 1 km radius of active Metro corridors. 
 * **Legally Mandating Unbundled Parking:** Suggest strict policy mandates to real estate developers to decouple the cost of an apartment unit from the cost of a parking space.
