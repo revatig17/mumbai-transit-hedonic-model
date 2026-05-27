@@ -10,13 +10,13 @@ This research project applies **Rosen’s (1974) Hedonic Pricing Theory** and **
 ## Econometric Specification
 To capture the non-linear relationships characteristic of urban real estate markets, a semi-log multiple ordinary least squares (OLS) regression model was specified:
 
-\ln(\text{Price}_i) = \beta_0 + \beta_1(\text{Area}_i) + \beta_2(\text{Bedrooms}_i) + \beta_3(\text{New/Resale}_i) + \beta_4(\text{Amenity\_Score}_i) + \beta_5(\text{Distance\_to\_Metro}_i) + \varepsilon_i
+$$\ln(\text{Price}_i) = \beta_0 + \beta_1(\text{Area}_i) + \beta_2(\text{Bedrooms}_i) + \beta_3(\text{New/Resale}_i) + \beta_4(\text{Amenity\_Score}_i) + \beta_5(\text{Distance\_to\_Metro}_i) + \varepsilon_i$$
 
 Where:
-*\ln(\text{Price}_i) is the natural log of the transactional price for unit *i*, allowing coefficients to be interpreted as percentage elasticities.
-*\text{Amenity\_Score}_i is a engineered composite index (0–13) aggregating bundled structural amenities to eliminate severe multicollinearity.
-*\text{Distance\_to\_Metro}_i isolates the straight-line spatial distance (in km) from localized residential coordinates to the central transit node.
-*\varepsilon_i represents the stochastic error term.
+* $\ln(\text{Price}_i)$ is the natural log of the transactional price for unit *i*, allowing coefficients to be interpreted as percentage elasticities.
+* $\text{Amenity\_Score}_i$ is a engineered composite index (0–13) aggregating bundled structural amenities to eliminate severe multicollinearity.
+* $\text{Distance\_to\_Metro}_i$ isolates the straight-line spatial distance (in km) from localized residential coordinates to the central transit node.
+* $\varepsilon_i$ represents the stochastic error term
 
 ---
 
@@ -24,6 +24,7 @@ Where:
 
 The model was estimated in **RStudio** using a cross-sectional dataset of **2,656 micro-transactions** (n = 2,656). The regression yielded an exceptionally robust explanatory power with an **Adjusted R^2 of 0.8192**, indicating that five fundamental spatial and structural variables explain **82%** of the variance in logged property values across Mumbai.
 
+```r
 Call:
 lm(formula = log(Price) ~ Area + `No. of Bedrooms` + `New/Resale` + 
     Amenity_Score + Distance_to_Metro, data = final_policy_data)
@@ -47,9 +48,9 @@ Residual standard error: 0.2882 on 2650 degrees of freedom
 Multiple R-squared:  0.8196,	Adjusted R-squared:  0.8192 
 F-statistic:  2408 on 5 and 2650 DF,  p-value: < 2.2e-16
 
+---
 
-
-**## Understanding the Results:**
+**Understanding the Results:**
 
 This study looks at how housing prices in Mumbai change based on size, layout, condition, and—most importantly—how close the property is to a mass transit hub (like the Metro). 
 
@@ -66,17 +67,19 @@ Our model explains **81.92%** of the variation in housing prices using just five
 
 Using `ggplot2`, the log-linear spatial gradient below visualizes how property premiums decay systematically as a function of distance from the transit hub. The downward slope represents our statistically significant -3.31% price drop per kilometer. The narrow confidence interval ribbon surrounding the line underscores the high statistical precision of our model.
 
+
 ![Mumbai Transit Impact Gradient](Housing prices in Mumbai.jpeg)
 
-**## Policy Implications:** 
+
+** Policy Implications:** 
 
 The proof that a Metro station creates a **3.31% property value premium per kilometer** shifts the governance conversation from how the city *spends* money on transport to how it can *earn* money back to build more infrastructure.
 
 
-**### 1. Inclusionary Zoning & Structural Density Bonuses**
+**1. Inclusionary Zoning & Structural Density Bonuses**
 Given that the BMC already utilizes a 1% Metro Cess on stamp duty, policy must pivot toward structural land-use reforms. Our model identifies a massive 33.89% price premium for layout density (extra bedrooms). The city planning authority should grant private developers an "FSI Density Bonus" within a 1.5 km transit buffer on the strict condition that 20% of the augmented built-up area is designated for compact, affordable housing. This utilizes market incentives to generate diverse housing stock without draining public budgets.
 
-**### 2. Transition-Oriented Development & "Unbundled" Housing Costs**
+**2. Transition-Oriented Development & "Unbundled" Housing Costs**
 The econometric results revealed that the consolidated `Amenity_Score` was statistically insignificant (p = 0.321) once transport distance and apartment layout were locked in. This strongly suggests that consumer demand and baseline land values along transit corridors are driven entirely by transit connectivity and core spatial utility—not by traditional car-centric structural luxury add-ons. Despite this market reality, current building codes (DCR , NBCs) heavily mandate mandatory car parking minimums, forcing developers to tie expensive multi-level parking slots directly to housing purchases. The city planning authority can look into:
 **Enforcing Parking Maximums:** Cap the number of parking slots allowed for new residential projects built within a 1 km radius of active Metro corridors. 
 **Legally Mandating Unbundled Parking:** Suggest strict policy mandates to real estate developers to decouple the cost of an apartment unit from the cost of a parking space.
