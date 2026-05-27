@@ -64,6 +64,14 @@ Our model explains **81.92%** of the variation in housing prices using just five
 
 ---
 
+## isualizing the Infrastructure Land Gradient
+
+Using `ggplot2`, the log-linear spatial gradient below visualizes how property premiums decay systematically as a function of distance from the transit hub. The downward slope represents our statistically significant -3.31% price drop per kilometer. The narrow confidence interval ribbon surrounding the line underscores the high statistical precision of our model.
+
+![Mumbai Transit Impact Gradient](Housing prices in Mumbai.jpeg)
+
+---
+
 **## Policy Implications:** 
 
 The proof that a Metro station creates a **3.31% property value premium per kilometer** shifts the governance conversation from how the city *spends* money on transport to how it can *earn* money back to build more infrastructure.
