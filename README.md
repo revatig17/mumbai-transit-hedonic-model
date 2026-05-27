@@ -70,8 +70,6 @@ Using `ggplot2`, the log-linear spatial gradient below visualizes how property p
 
 ![Mumbai Transit Impact Gradient](Housing prices in Mumbai.jpeg)
 
----
-
 **## Policy Implications:** 
 
 The proof that a Metro station creates a **3.31% property value premium per kilometer** shifts the governance conversation from how the city *spends* money on transport to how it can *earn* money back to build more infrastructure.
