@@ -50,7 +50,7 @@ F-statistic:  2408 on 5 and 2650 DF,  p-value: < 2.2e-16
 
 ---
 
-**Understanding the Results:**
+## Understanding the Results
 
 This study looks at how housing prices in Mumbai change based on size, layout, condition, and—most importantly—how close the property is to a mass transit hub (like the Metro). 
 
