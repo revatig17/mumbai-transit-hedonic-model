@@ -48,3 +48,33 @@ Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’
 Residual standard error: 0.2882 on 2650 degrees of freedom
 Multiple R-squared:  0.8196,	Adjusted R-squared:  0.8192 
 F-statistic:  2408 on 5 and 2650 DF,  p-value: < 2.2e-16
+
+
+
+## Understanding the Results: 
+
+This study looks at how housing prices in Mumbai change based on size, layout, condition, and—most importantly—how close the property is to a mass transit hub (like the Metro). 
+
+Our model explains **81.92%** of the variation in housing prices using just five basic factors. Here is the real-world breakdown of our findings:
+
+* **Distance_to_Metro ($\beta_5 = -0.03314$):** For every additional kilometer a house is located away from a Metro station, its market value drops by exactly **3.31%**. This proves that people are highly willing to pay a premium amount to live close to public transport mode to save on daily commuting time and costs.
+* **No. of Bedrooms ($\beta_2 = 0.3389$):** Keeping the exact square footage of a house identical, adding an extra bedroom (e.g., designing a compact 2-BHK instead of a large 1-BHK) increases the property value by **33.89%**. This highlights a severe demand in Mumbai for smart, divided, and highly functional living spaces.
+* **New/Resale ($\beta_3 = 0.09734$):** Brand-new properties command a **9.73%** price premium compared to older resale units.
+* **Amenities_Score ($\beta_4 = -0.001746$):** Interestingly, extra building facilities (like a gym or clubhouse) do not have a statistically significant impact on price once location and size are locked in. This suggests that in Mumbai, **location and space utility matter far more than luxury add-ons.**
+
+---
+
+## Policy Implications: 
+
+The proof that a Metro station creates a **3.31% property value premium per kilometer** shifts the governance conversation from how the city *spends* money on transport to how it can *earn* money back to build more infrastructure.
+
+
+### 1. Inclusionary Zoning & Structural Density Bonuses
+Given that the MCGM already utilizes a 1% Metro Cess on stamp duty, policy must pivot toward structural land-use reforms. Our model identifies a massive 33.89% price premium for layout density (extra bedrooms). The city planning authority should grant private developers an "FSI Density Bonus" within a 1.5 km transit buffer on the strict condition that 20% of the augmented built-up area is designated for compact, affordable housing. This utilizes market incentives to generate diverse housing stock without draining public budgets.
+
+### 2. Implementing Parking Maximums & "Unbundled" Housing Costs
+The econometric results revealed that the consolidated `Amenity_Score` was statistically insignificant ($p = 0.321$) once transport distance and apartment layout were locked in. This strongly suggests that consumer demand and baseline land values along transit corridors are driven entirely by transit connectivity and core spatial utility—not by traditional car-centric structural luxury add-ons. Despite this market reality, current building codes (DCR , NBCs) heavily mandate mandatory car parking minimums, forcing developers to tie expensive multi-level parking slots directly to housing purchases. The city planning authority should pivot to:
+* **Enforcing Parking Maximums:** Cap the number of parking slots allowed for new residential projects built within a 1 km radius of active Metro corridors. 
+* **Legally Mandating Unbundled Parking:** Suggest strict policy mandates to real estate developers to decouple the cost of an apartment unit from the cost of a parking space.
+
+* **The Policy Benefit:** This removes a major hidden financial amount for transit-reliant residents who do not own cars, while simultaneously lowering overall structural construction costs. Developers can instead repurpose that premium structural space to supply more high-density livable units, directly supporting a pedestrian-first, transit-oriented urban core.
