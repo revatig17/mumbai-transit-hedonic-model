@@ -67,11 +67,12 @@ Because the amenity factor is statistically insignificant, forcing developers to
 
 **2. Economic & Urban Planning Literature**
 
-- [Alonso, W. (1964). Location and Land Use: Toward a General Theory of Land Rent. Harvard University Press.]( (Theoretical foundation for transit distance decay and urban bid-rent curves).
+- [Alonso, W. (1964). Location and Land Use: Toward a General Theory of Land Rent. Harvard University Press.](William_Alonso_Location_and_Land_Use) (Theoretical foundation for transit distance decay and urban bid-rent curves).
 
-- Rosen, S. (1974). Hedonic Prices and Implicit Markets: Product Differentiation in Pure Competition. Journal of Political Economy, 82(1), 34-55. (Methodological foundation for decomposing multi-attribute real estate assets).
+- [Rosen, S. (1974). Hedonic Prices and Implicit Markets: Product Differentiation in Pure Competition. Journal of Political Economy, 82(1), 34-55.](Hedonic_Pricing_Rosen.pdf) (Methodological foundation for decomposing multi-attribute real estate assets).
 
 **3. Institutional Policy Frameworks:** 
-- Ministry of Housing and Urban Affairs (MoHUA), Government of India. (2017). National Transit Oriented Development (TOD) Policy. New Delhi: GoI. (Policy justification for integrating land use with rapid transit corridors).
+- [Ministry of Housing and Urban Affairs (MoHUA), Government of India. (2017). National Transit Oriented Development (TOD) Policy.](National_TOD_Policy.pdf) (Policy justification for integrating land use with rapid transit corridors).
+- [Municipal Corporation of Greater Mumbai (MCGM). (2018). Mumbai Development Plan 2034 (DP 2034).](DCPR (Contextual baseline for Floor Space Index (FSI) and zoning limits in MMR).
 
 - Municipal Corporation of Greater Mumbai (MCGM). (2018). Mumbai Development Plan 2034 (DP 2034). Mumbai: Government of Maharashtra. (Contextual baseline for Floor Space Index (FSI) and zoning limits in MMR).
