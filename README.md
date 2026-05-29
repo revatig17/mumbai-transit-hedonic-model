@@ -10,10 +10,10 @@ By isolating the consumer's pure marginal willingness-to-pay for transit proximi
 
 The log-linear multiple regression model demonstrates exceptional explanatory power, achieving an Adjusted R-squared of 0.8192 across 2,656 real estate transactions. This means our model accounts for 81.92% of the total variance in Mumbai housing prices.
 
-* Distance_to_Metro: For every additional kilometer a property sits away from a Metro station, its market value drops by exactly 3.31%. This proves a massive consumer willingness-to-pay for transit connectivity.
-* No. of Bedrooms: Keeping absolute square footage identical, adding an extra bedroom into the floor plan yields a 33.89% price premium, reflecting intense demand for internal space optimization.
-* New/Resale: Brand-new primary market launches command a 9.73% premium relative to older secondary-market resale units.
-* Amenity_Score: Auxiliary building facilities (gyms, clubhouses) are statistically insignificant once core location, size, and layout density are controlled.
+* **Distance_to_Metro**: For every additional kilometer a property sits away from a Metro station, its market value drops by exactly 3.31%. This proves a massive consumer willingness-to-pay for transit connectivity.
+* **No. of Bedrooms**: Keeping absolute square footage identical, adding an extra bedroom into the floor plan yields a 33.89% price premium, reflecting intense demand for internal space optimization.
+* **New/Resale**: Brand-new primary market launches command a 9.73% premium relative to older secondary-market resale units.
+* **Amenity_Score**: Auxiliary building facilities (gyms, clubhouses) are statistically insignificant once core location, size, and layout density are controlled.
 
 Here is the exact econometric output generated in RStudio from our sample size of 2,656 residential transactions ($n = 2,656$):
 
