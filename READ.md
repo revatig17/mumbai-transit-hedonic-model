@@ -63,7 +63,10 @@ Because the amenity factor is statistically insignificant, forcing developers to
 
 **📚 References & Data Sources**
 
-**1. Data Source:** [Shah, S. (2021). Mumbai Housing Dataset. Kaggle](Mumbai1.xslx) — Cross-sectional residential transaction records across the Mumbai Metropolitan Region (MMR), geocoded to absolute spatial coordinates ($n = 2,656$) to map transit proximity.
+**1. Data Source and R Script:** 
+- [Shah, S. (2021). Mumbai Housing Dataset. Kaggle - Cleand Cross-sectional Dataset](Mumbai1.xslx) — Cross-sectional residential transaction records across the Mumbai Metropolitan Region (MMR), geocoded to absolute spatial coordinates ($n = 2,656$) to map transit proximity.
+
+- [Download Cleaned Replication Script](replication_script.R)
 
 **2. Economic & Urban Planning Literature**
 
