@@ -63,11 +63,11 @@ Because the amenity factor is statistically insignificant, forcing developers to
 
 **📚 References & Data Sources**
 
-**1. Data Source:** Shah, S. (2021). Mumbai Housing Dataset. Kaggle. — Cross-sectional residential transaction records across the Mumbai Metropolitan Region (MMR), geocoded to absolute spatial coordinates ($n = 2,656$) to map transit proximity.
+**1. Data Source:** [Shah, S. (2021). Mumbai Housing Dataset. Kaggle](Mumbai1.xslx) — Cross-sectional residential transaction records across the Mumbai Metropolitan Region (MMR), geocoded to absolute spatial coordinates ($n = 2,656$) to map transit proximity.
 
 **2. Economic & Urban Planning Literature**
 
-- Alonso, W. (1964). Location and Land Use: Toward a General Theory of Land Rent. Harvard University Press. (Theoretical foundation for transit distance decay and urban bid-rent curves).
+- [Alonso, W. (1964). Location and Land Use: Toward a General Theory of Land Rent. Harvard University Press.]( (Theoretical foundation for transit distance decay and urban bid-rent curves).
 
 - Rosen, S. (1974). Hedonic Prices and Implicit Markets: Product Differentiation in Pure Competition. Journal of Political Economy, 82(1), 34-55. (Methodological foundation for decomposing multi-attribute real estate assets).
 
